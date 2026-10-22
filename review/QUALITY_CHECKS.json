@@ -1,0 +1,31 @@
+{
+  "pdf_pages": 5,
+  "references_cited": 17,
+  "pdf_fonts_embedded": {
+    "/IHAIZV+NimbusRomNo9L-Regu": true,
+    "/BZIVMZ+NimbusRomNo9L-MediItal": true,
+    "/IXFAWU+NimbusRomNo9L-Medi": true,
+    "/TQTHRL+NimbusRomNo9L-ReguItal": true,
+    "/YEUUOC+CMMI10": true,
+    "/AKHCZK+CMMI7": true,
+    "/VDVGTR+CMR10": true,
+    "/CAFSZL+CMSY10": true,
+    "/DDIEWW+CMEX10": true,
+    "/FKPJSN+CMR7": true,
+    "/PVTTLK+CMSY7": true,
+    "/JAGKKY+NimbusMonL-Regu": true,
+    "/NOMARO+CMMI8": true,
+    "/KPXLOM+CMR8": true,
+    "/BMQQDV+DejaVuSans": true
+  },
+  "latex_unresolved_citations": false,
+  "latex_overfull_boxes": false,
+  "visual_review": "All five pages rendered with Poppler and inspected; no clipping or collisions observed.",
+  "tests": "21 passed; see test_results.xml and test_results.txt",
+  "executed_notebook": "implementation/final_walkthrough.ipynb: five code cells executed successfully",
+  "evaluation_records": {
+    "uci": 504,
+    "wisdm": 435
+  },
+  "scope": "No external peer review, Turnitin report, conference-specific PDF validation, or submission performed."
+}

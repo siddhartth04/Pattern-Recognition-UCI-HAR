@@ -1,0 +1,19 @@
+{
+  "seed": 2026,
+  "cv_folds": 3,
+  "C_grid": [0.1, 1.0, 10.0],
+  "train_dropout_grid": [0.1, 0.3, 0.5],
+  "svm_C_grid": [1.0, 10.0],
+  "rf_max_features_grid": ["sqrt", 0.2],
+  "rf_trees": 200,
+  "validation_dropout": 0.3,
+  "validation_corruption_seeds": [101, 102, 103],
+  "test_corruption_seeds": [901, 902, 903],
+  "test_dropout_rates": [0.1, 0.3, 0.5, 0.7],
+  "test_noise_sigmas": [0.1, 0.3, 0.5, 1.0],
+  "augmentation_sensitivity_seeds": [2027, 2028],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 777,
+  "threads": 2,
+  "selection_metric": "equal mean of clean macro-F1 and mean 30-percent-dropout macro-F1 across three corruption seeds; then mean across subject-disjoint CV folds"
+}

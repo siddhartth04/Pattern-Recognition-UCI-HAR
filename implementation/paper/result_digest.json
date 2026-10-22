@@ -1,0 +1,13 @@
+{
+  "title": "Feature Dropout for Robust Smartphone Activity Recognition: A Subject-Disjoint Empirical Study",
+  "primary_baseline": "LR",
+  "clean_accuracy": 0.9487614523243976,
+  "clean_macro_f1": 0.9490340478291494,
+  "dropout_50_macro_f1": 0.8710566091953135,
+  "dropout_50_delta": 0.010320441145748,
+  "dropout_50_ci": [
+    0.0063880529712581,
+    0.0144327561613276
+  ],
+  "elapsed_minutes": 4.944571556666667
+}

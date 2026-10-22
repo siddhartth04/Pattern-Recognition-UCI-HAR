@@ -1,0 +1,17 @@
+{
+  "LR": {
+    "params": {
+      "C": 0.1,
+      "family": "lr"
+    },
+    "cv_score": 0.8938311915540744
+  },
+  "Dropout-LR": {
+    "params": {
+      "C": 0.1,
+      "family": "dropout_lr",
+      "p": 0.1
+    },
+    "cv_score": 0.8936488505513817
+  }
+}

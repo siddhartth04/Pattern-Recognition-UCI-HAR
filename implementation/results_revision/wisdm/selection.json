@@ -1,0 +1,32 @@
+{
+  "LR": {
+    "params": {
+      "C": 0.1,
+      "family": "lr"
+    },
+    "cv_score": 0.7355681851945519
+  },
+  "Dropout-LR": {
+    "params": {
+      "C": 1.0,
+      "family": "dropout_lr",
+      "p": 0.3
+    },
+    "cv_score": 0.7564709099116557
+  },
+  "RBF-SVM": {
+    "params": {
+      "C": 1.0,
+      "family": "svm"
+    },
+    "cv_score": 0.7681857857666777
+  },
+  "Random forest": {
+    "params": {
+      "family": "rf",
+      "max_features": 0.2,
+      "trees": 200
+    },
+    "cv_score": 0.7613111651808216
+  }
+}

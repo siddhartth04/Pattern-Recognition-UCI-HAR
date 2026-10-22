@@ -1,0 +1,24 @@
+CV LR {'family': 'lr', 'C': 0.1}: 0.89383
+CV LR {'family': 'lr', 'C': 1.0}: 0.88384
+CV LR {'family': 'lr', 'C': 10.0}: 0.86939
+CV Dropout-LR {'family': 'dropout_lr', 'C': 0.1, 'p': 0.1}: 0.89365
+CV Dropout-LR {'family': 'dropout_lr', 'C': 0.1, 'p': 0.3}: 0.89205
+CV Dropout-LR {'family': 'dropout_lr', 'C': 0.1, 'p': 0.5}: 0.88933
+CV Dropout-LR {'family': 'dropout_lr', 'C': 1.0, 'p': 0.1}: 0.88842
+CV Dropout-LR {'family': 'dropout_lr', 'C': 1.0, 'p': 0.3}: 0.88849
+CV Dropout-LR {'family': 'dropout_lr', 'C': 1.0, 'p': 0.5}: 0.88652
+CV Dropout-LR {'family': 'dropout_lr', 'C': 10.0, 'p': 0.1}: 0.87781
+CV Dropout-LR {'family': 'dropout_lr', 'C': 10.0, 'p': 0.3}: 0.88299
+CV Dropout-LR {'family': 'dropout_lr', 'C': 10.0, 'p': 0.5}: 0.88244
+CV RBF-SVM {'family': 'svm', 'C': 1.0}: 0.88375
+CV RBF-SVM {'family': 'svm', 'C': 10.0}: 0.88167
+CV Random forest {'family': 'rf', 'max_features': 'sqrt', 'trees': 200}: 0.87091
+CV Random forest {'family': 'rf', 'max_features': 0.2, 'trees': 200}: 0.84761
+Test completed: LR; fit 1.00s
+Test completed: Dropout-LR; fit 2.09s
+Test completed: RBF-SVM; fit 1.48s
+Test completed: Random forest; fit 11.59s
+Test completed: LR matched C; fit 0.93s
+Test completed: Dropout-LR seed 2027; fit 2.36s
+Test completed: Dropout-LR seed 2028; fit 2.11s
+Experiment complete.

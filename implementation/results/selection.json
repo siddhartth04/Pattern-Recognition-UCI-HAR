@@ -1,0 +1,34 @@
+{
+  "LR": {
+    "params": {
+      "family": "lr",
+      "C": 0.1
+    },
+    "cv_score": 0.8938311915540744
+  },
+  "Dropout-LR": {
+    "params": {
+      "family": "dropout_lr",
+      "C": 0.1,
+      "p": 0.1
+    },
+    "cv_score": 0.8936488505513817
+  },
+  "RBF-SVM": {
+    "params": {
+      "family": "svm",
+      "C": 1.0
+    },
+    "cv_score": 0.8837538834914084
+  },
+  "Random forest": {
+    "params": {
+      "family": "rf",
+      "max_features": "sqrt",
+      "trees": 200
+    },
+    "cv_score": 0.8709121685726798
+  },
+  "primary_baseline": "LR",
+  "config_sha256": "5748d44b6d2ef00b6e7ff46af35ebceec274e33de5b34a257bf31c5edeef4eca"
+}

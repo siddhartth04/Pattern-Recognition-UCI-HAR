@@ -1,0 +1,17 @@
+{
+  "elapsed_seconds": 232.81270320000476,
+  "python": "3.11.0",
+  "protocol_sha256": "e63165907441099304c0fad779299bcf468e528d7f7df38551afe4b32de3eb8c",
+  "source_sha256": {
+    "build_paper.py": "6e5cfcff46e28a7420c0556c2fd5692e7a7b52f31eecbc9cb168f923401729a9",
+    "data.py": "92024f2f3317a7ef5604f32e169a30e064be99dd3f35bcf43803a68bca2428e6",
+    "experiment.py": "e876035ea956feaa348a370dd24d45f78416e9d71fd5464faa4566d5a583f178",
+    "figures.py": "ccd39aad9adfd498bfe29ebbfe0aa936f67d8ae4ca24786b54edd55b72e1c7c0",
+    "models.py": "4e01ecf7a8f53ded0759ca8fcb51632b7c359426b4535af6924eb668b6478b1d",
+    "predict.py": "001ea94980d5c4c3c0a574262154e907861b0aefa2ec9dcbb6c4ec6c323bed55",
+    "revision.py": "09e66dfcb574c65ecfdd6502b5766432eb01898f3fbbd7867f62aa2b4c8a5363",
+    "wisdm.py": "d0fa5774218f76135bddd8037393baa98e837d54cb89ddbacbb41a8511214280",
+    "__init__.py": "bf63d199b3f08e7537ba066cea22b96083cd662c49de5fcefec23712a88f18f4"
+  },
+  "interpretation": "UCI follow-up exploratory; WISDM model selection excludes held-out subjects; no external preregistration"
+}
